@@ -11,7 +11,7 @@ def run_server():
 
 if __name__ == "__main__":
     # Start FastAPI in background thread
-    server_thread = threading.Thread(target=run_server, daemon=True)
+    server_thread = threading.Thread(target=run_server, daemon=True) # creates an individual OS thread, 
     server_thread.start()
 
     # Give server time to boot
