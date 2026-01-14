@@ -9,7 +9,7 @@ def resume_parsing(Payload: resume_request_model):
     
     load_dotenv() # loads .env into environment
     #groq_api_key = os.getenv("GROQ_API_KEY")
-    groq_api_key = "gsk_kRthhAxsMxUkinzv5k9zWGdyb3FYUzpwE1JowfC0I5afR4pkhd0"
+    groq_api_key = "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"
 
     llm = ChatGroq(model= "llama-3.3-70b-versatile",
                temperature= 0.5,
